@@ -1,41 +1,26 @@
-# Website
+# Kaizen for Dev Teams
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repository contains a website sharing personal insights on applying Kaizen - continuous improvement principles - to software development teams. It covers standardizing workflows, best practices for processes, and integrating emerging AI tools for ongoing enhancements.
 
-## Installation
+## Purpose
 
-```bash
-yarn
-```
+The site offers practical advice on fostering efficiency in dev teams through small, incremental changes. Topics include process standardization, AI-driven automation, and real-world examples of continuous improvement in coding, testing, and deployment.
 
-## Local Development
+## Getting Started
 
-```bash
-yarn start
-```
+This website is built using [Docusaurus](https://docusaurus.io/)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+To run locally:
 
-## Build
+1. Clone the repo: `git clone https://github.com/weiyang115/kaizen-for-dev-teams.git`
+2. Install dependencies: `npm install` (if using a framework like React)
+3. Start server: `npm run dev`
+4. View at `http://localhost:3000`
 
-```bash
-yarn build
-```
+## Project Status
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This project is in early stages and will be updated gradually with new content on AI best practices and Kaizen applications.
 
-## Deployment
+## License
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+MIT License - see [LICENSE](https://www.perplexity.ai/search/LICENSE) for details.

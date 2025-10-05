@@ -85,6 +85,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/about', label: 'About', position: 'left' },
         {
           href: 'https://github.com/weiyang115/kaizen-for-dev-teams',
           label: 'GitHub',
