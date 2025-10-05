@@ -28,18 +28,18 @@ const sidebars: SidebarsConfig = {
     //     'assessments/team-health-check',
     //   ],
     // },
-    {
-      type: 'category',
-      label: '⭐ Best Practices',
-      items: [
-        'best-practices/git-workflow',
-        // 'best-practices/ci-cd-practices',
-        // 'best-practices/code-review',
-        // 'best-practices/ai-tools-usage',
-        // 'best-practices/testing-strategy',
-        // 'best-practices/documentation',
-      ],
-    },
+    // {
+    //   type: 'category',
+    //   label: '⭐ Best Practices',
+    //   items: [
+    //     'best-practices/git-workflow',
+    //     'best-practices/ci-cd-practices',
+    //     'best-practices/code-review',
+    //     'best-practices/ai-tools-usage',
+    //     'best-practices/testing-strategy',
+    //     'best-practices/documentation',
+    //   ],
+    // },
     // {
     //   type: 'category',
     //   label: '🔧 Problem Solving',

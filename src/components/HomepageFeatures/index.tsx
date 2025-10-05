@@ -11,32 +11,33 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Identify Problems',
+    Svg: require('@site/static/img/identify_problems.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Surface bottlenecks, tech debt, and process gaps with quick
+        diagnostics, flow metrics, and team signals.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Solutions & Best Practices',
+    Svg: require('@site/static/img/solution_best_practices.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Implement robust source control, CI/CD pipelines, and
+        automated testing to standardize delivery, reduce risk,
+        and elevate quality.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Continuous Improvement',
+    Svg: require('@site/static/img/continuous-improvement.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Use AI across code, pipelines, and telemetry to
+        automate experiments, prioritize fixes, and continuously optimize delivery.
       </>
     ),
   },
