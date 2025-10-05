@@ -23,3 +23,8 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+weiyang:
+  name: Wei Yang
+  image_url: /img/wy.png
+  page: true
