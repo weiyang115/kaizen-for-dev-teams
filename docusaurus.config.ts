@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Kaizen for Dev Teams',
+  tagline: 'Turning chaos into clarity, one iteration at a time.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://weiyang115.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/kaizen-for-dev-teams/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'weiyang115', // Usually your GitHub org/user name.
+  projectName: 'kaizen-for-dev-teams', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/weiyang115/kaizen-for-dev-teams/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/weiyang115/kaizen-for-dev-teams/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -71,13 +71,10 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
-    colorMode: {
-      respectPrefersColorScheme: true,
-    },
     navbar: {
-      title: 'My Site',
+      title: 'Kaizen for Dev Teams',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Kaizen for Dev Teams Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -85,11 +82,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/weiyang115/kaizen-for-dev-teams',
           label: 'GitHub',
           position: 'right',
         },
@@ -102,8 +99,16 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Getting Started',
+              to: '/docs/getting-started/overview',
+            },
+            {
+              label: 'Best Practices',
+              to: '/docs/best-practices/git-workflow',
+            },
+            {
+              label: 'Assessments',
+              to: '/docs/assessments/joel-test-2025',
             },
           ],
         },
@@ -111,16 +116,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'GitHub Discussions',
+              href: 'https://github.com/weiyang115/kaizen-for-dev-teams/discussions',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Issues',
+              href: 'https://github.com/weiyang115/kaizen-for-dev-teams/issues',
             },
           ],
         },
@@ -133,17 +134,38 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/weiyang115/kaizen-for-dev-teams',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Kaizen for Dev Teams. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['bash', 'diff', 'json', 'yaml', 'docker', 'typescript', 'javascript'],
     },
+    // algolia: {
+    //   // The application ID provided by Algolia
+    //   appId: 'TOGDI4YFA8',
+    //   // Public API key: it is safe to commit it
+    //   apiKey: 'f65f75fc99b720afccc638e835028861',
+    //   indexName: 'YOUR_INDEX_NAME',
+    //   // Optional: see doc section below
+    //   contextualSearch: true,
+    //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push
+    //   externalUrlRegex: 'external\\.com|domain\\.com',
+    //   // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl
+    //   replaceSearchResultPathname: {
+    //     from: '/docs/', // or as RegExp: /\/docs\//
+    //     to: '/',
+    //   },
+    //   // Optional: Algolia search parameters
+    //   searchParameters: {},
+    //   // Optional: path for search page that enabled by default (`false` to disable it)
+    //   searchPagePath: 'search',
+    // },
   } satisfies Preset.ThemeConfig,
 };
 
