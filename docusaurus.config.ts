@@ -100,16 +100,16 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/docs/getting-started/overview',
+              to: '/docs/intro',
             },
-            {
-              label: 'Best Practices',
-              to: '/docs/best-practices/git-workflow',
-            },
-            {
-              label: 'Assessments',
-              to: '/docs/assessments/joel-test-2025',
-            },
+            // {
+            //   label: 'Best Practices',
+            //   to: '/docs/best-practices/git-workflow',
+            // },
+            // {
+            //   label: 'Assessments',
+            //   to: '/docs/assessments/joel-test-2025',
+            // },
           ],
         },
         {
