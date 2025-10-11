@@ -14,7 +14,7 @@ To run locally:
 
 1. Clone the repo: `git clone https://github.com/weiyang115/kaizen-for-dev-teams.git`
 2. Install dependencies: `npm install` (if using a framework like React)
-3. Start server: `npm run dev`
+3. Start server: `npm run start`
 4. View at `http://localhost:3000`
 
 ## Project Status

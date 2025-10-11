@@ -1,0 +1,8 @@
+{
+  "label": "🐱‍🐉Docusaurus Tutorials",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn Docusaurus basics and advanced features through these comprehensive tutorials."
+  }
+}
