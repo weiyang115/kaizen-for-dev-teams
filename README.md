@@ -20,7 +20,3 @@ To run locally:
 ## Project Status
 
 This project is in early stages and will be updated gradually with new content on AI best practices and Kaizen applications.
-
-## License
-
-MIT License - see [LICENSE](https://www.perplexity.ai/search/LICENSE) for details.

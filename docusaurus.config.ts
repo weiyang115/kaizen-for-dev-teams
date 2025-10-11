@@ -55,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/weiyang115/kaizen-for-dev-teams/tree/main/',
+            'https://github.com/weiyang115/kaizen-for-dev-teams/tree/master/',
         },
         blog: {
           showReadingTime: true,
