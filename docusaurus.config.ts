@@ -158,26 +158,26 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
       additionalLanguages: ['bash', 'diff', 'json', 'yaml', 'docker', 'typescript', 'javascript'],
     },
-    // algolia: {
-    //   // The application ID provided by Algolia
-    //   appId: 'TOGDI4YFA8',
-    //   // Public API key: it is safe to commit it
-    //   apiKey: 'f65f75fc99b720afccc638e835028861',
-    //   indexName: 'YOUR_INDEX_NAME',
-    //   // Optional: see doc section below
-    //   contextualSearch: true,
-    //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push
-    //   externalUrlRegex: 'external\\.com|domain\\.com',
-    //   // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl
-    //   replaceSearchResultPathname: {
-    //     from: '/docs/', // or as RegExp: /\/docs\//
-    //     to: '/',
-    //   },
-    //   // Optional: Algolia search parameters
-    //   searchParameters: {},
-    //   // Optional: path for search page that enabled by default (`false` to disable it)
-    //   searchPagePath: 'search',
-    // },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'TOGDI4YFA8',
+      // Public API key: it is safe to commit it
+      apiKey: 'f65f75fc99b720afccc638e835028861',
+      indexName: 'kaizen-for-dev-teams',
+      // Optional: see doc section below
+      contextualSearch: true,
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push
+      // externalUrlRegex: 'external\\.com|domain\\.com',
+      // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl
+      // replaceSearchResultPathname: {
+      //   from: '/docs/', // or as RegExp: /\/docs\//
+      //   to: '/',
+      // },
+      // Optional: Algolia search parameters
+      // searchParameters: {},
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+    },
   } satisfies Preset.ThemeConfig,
 };
 
